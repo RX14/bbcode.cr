@@ -2,6 +2,17 @@ name: bbcode
 version: 0.1.0
 
 authors:
-  - RX14 <chris@rx14.co.uk>
+  - Chris Hobbs <chris@rx14.co.uk>
 
+description: |
+  A fast bbcode renderer for crystal
+
+development_dependencies:
+  power_assert:
+    github: RX14/power_assert.cr
+    version: 0.2.4
+  spec2:
+    github: waterlink/spec2.cr
+    version: ~> 0.8.0
+  
 license: MIT
